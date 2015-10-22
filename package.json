@@ -1,13 +1,15 @@
 {
   "name": "simple-scraper",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a very simple scraper",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node app.js"
   },
   "dependencies": {
-    "cheerio": "0.19.0"
+    "request"    : "latest",
+    "cheerio"    : "latest"
   },
   "repository": {
     "type": "git",
